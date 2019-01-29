@@ -13,6 +13,6 @@ end)
 function node.render()
     gl.clear(0,0,0,1)
     font:write(0, 0, "Size Test", 64, 1,1,1,1) 
-    time = os.time
-    font:write(250, 300, "Time : "..time, 64, 1,1,1,1) 
+    my_time = os.time
+    font:write(250, 300, "Time : "..my_time, 64, 1,1,1,1) 
 end
