@@ -21,5 +21,5 @@ function node.render()
     my_size = my_size +(t_delta * 25)
     font:write(0, 0, "Size Test", 32, 1,1,1,1) 
     font:write(0, 200, "Sys.now : "..my_time.."  "..t_delta.."  "..my_size , 64, 1,1,1,1)
-    font:write(0, 300, "Sys.now : "X" , my_size, 1,1,1,1)
+    font:write(0, 300, "X" , my_size, 1,1,1,1)
 end
