@@ -5,5 +5,19 @@
         "name": "text",
         "type": "string",
         "default": "Welcome to Info-beamer"
-    }]
+    },
+    {"title": "Rotation",
+    "name": "rotation",
+    "hint": "Select the Screen rotation",
+    "ui_width": 6,
+    "type": "select",
+    "options": [
+         ["0", "No rotation"],
+         ["90", "90° kwarter to the Right"],
+         ["180" ,"180° Upsized down"],
+         ["270" ,"270° Kwart to te Left"],
+       ],
+    "default": "0"
+}
+               ]
 }
