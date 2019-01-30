@@ -15,9 +15,9 @@
          ["0", "No rotation"],
          ["90", "90° kwarter to the Right"],
          ["180" ,"180° Upsized down"],
-         ["270" ,"270° Kwart to te Left"],
+         ["270" ,"270° Kwart to te Left"]
        ],
     "default": "0"
-}
+    }
                ]
 }
