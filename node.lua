@@ -25,6 +25,6 @@ function node.render()
     font:write(0, 150, "Write width : "..write_w.."  "..my_size , 45, 1,1,1,1)
     calc_w = font:width(0, 300, "X" , my_size)
     font:write(0, 200, "calc width : "..calc_w.."  "..my_size , 45, 1,1,1,1)
-    my_text = string("text\t text")
+    my_text = string.format("%s\t%s" ,"text" ,"text")
     font:write(0, 500, my_text, 32, 1,1,1,1)
 end
