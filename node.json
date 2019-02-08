@@ -6,6 +6,12 @@
         "type": "string",
         "default": "99"
     },
+    {
+        "title": "Size",
+        "name": "size",
+        "type": "integer",
+        "default": "40"
+    },
     {"title": "Rotation",
     "name": "rotation",
     "hint": "Select the Screen rotation",
