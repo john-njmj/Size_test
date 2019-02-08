@@ -10,7 +10,7 @@
         "title": "Size",
         "name": "size",
         "type": "integer",
-        "default": "40"
+        "default": 40
     },
     {"title": "Rotation",
     "name": "rotation",
