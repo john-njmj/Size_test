@@ -33,7 +33,7 @@ function node.render()
     repeat 
         H_POS = 0
         repeat 
-            font:write(V_POS,H_POS,text,1,1,1,1)
+            font:write(V_POS,H_POS,text,my_size,1,1,1,1)
             H_POS = H_POS + text_width + 5 
         until H_POS > NATIVE_WIDTH
         V_POS = V_POS + my_size +5
