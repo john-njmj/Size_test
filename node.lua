@@ -30,12 +30,16 @@ function node.render()
 --    my_text = string.format("%s\t%s" ,"text" ,"text")
 --    font:write(0, 500, my_text, 32, 1,1,1,1)
     V_POS = 0
+    my_count = 0
     repeat 
         H_POS = 0
         repeat 
-            font:write(V_POS,H_POS,text,my_size,1,1,1,1)
+            font:write(H_POS,V_POS,text,my_size,1,1,1,1)
             H_POS = H_POS + text_width + 5 
         until H_POS > NATIVE_WIDTH
         V_POS = V_POS + my_size +5
    until V_POS > NATIVE_HEIGHT
+   font:write(0,0,my-count,95,1,1,1,1)
+   font:write(100,0,sys.now(),95,1,1,1,1)
+   font:write(200,0,sys-time(),95,1,1,1,1)
 end
