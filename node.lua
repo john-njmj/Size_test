@@ -37,5 +37,5 @@ function node.render()
             H_POS = H_POS + text_width + 5 
         until H_POS > NATIVE_WIDTH
         V_POS = V_POS + my_size +5
-   until V_POS > NATIVE_HIEGHT
+   until V_POS > NATIVE_HEIGHT
 end
