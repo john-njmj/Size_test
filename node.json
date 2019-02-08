@@ -4,7 +4,7 @@
         "title": "Text",
         "name": "text",
         "type": "string",
-        "default": "Welcome to Info-beamer"
+        "default": "99"
     },
     {"title": "Rotation",
     "name": "rotation",
