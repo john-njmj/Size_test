@@ -39,7 +39,7 @@ function node.render()
         until H_POS > NATIVE_WIDTH
         V_POS = V_POS + my_size +5
    until V_POS > NATIVE_HEIGHT
-   font:write(0,0,my-count,95,1,1,1,1)
+   font:write(0,0,my_count,95,1,1,1,1)
    font:write(100,0,sys.now(),95,1,1,1,1)
-   font:write(200,0,sys-time(),95,1,1,1,1)
+   font:write(200,0,sys.time(),95,1,1,1,1)
 end
