@@ -1,7 +1,7 @@
 gl.setup(NATIVE_WIDTH, NATIVE_HEIGHT)
 
 local font = resource.load_font "ARIALN.TTF"
-local text = "Hello World"
+local text = "##"
 local t_delta 
 local my_time = sys.now()
 local my_size = 50
